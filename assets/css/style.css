@@ -6,7 +6,8 @@ html, body {
     height: 100%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
-#container {display:flex;
+#container {
+    display:flex;
     background-color: black;
     height: 100%;
     align-items: center;
@@ -19,8 +20,7 @@ html, body {
     max-width: 500px;
     display: flex;
     flex-direction: column;
-    
-}
+    }
 
 header {
     border-bottom: 1px solid rgb(58,58,60);
@@ -53,8 +53,13 @@ header {
    border: 2px solid rgb(58,58,60);
    min-width:60px;
     min-height:60px;
-    font-size: 2rem;
+    font-size: 50px;
     font-weight: bold;
+    color: gainsboro;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -91,3 +96,4 @@ header {
  .spacer-half {
     flex-grow: 0.5;
  }
+
